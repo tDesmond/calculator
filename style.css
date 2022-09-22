@@ -1,0 +1,105 @@
+
+body{
+    font-family: monospace;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: rgb(0, 170, 158);
+    height: 380px;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 5px 10px lightgrey;
+}
+
+.screen {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: white;
+    color: rgb(0, 170, 158);
+    font-weight: bold;
+    height: 100px;
+    width: 240px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#screen-top, #screen-bottom {
+    /* border: 1px solid black; */
+    width: inherit;
+}
+
+#screen-top{
+    height: 20px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 16px;
+} 
+#screen-bottom {
+    height: 60px;
+    font-size: 40px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* width: 300px;
+    height: 300px; */
+    /* border: 1px solid white; */
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 65px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 195px;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+}
+
+.operator-button {
+    display: flex;
+    flex-direction: column;
+}
+
+#clear-button, .number-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: white;
+    color: rgb(0, 170, 158);
+    height: 50px;
+    width: 61px;
+    margin-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
